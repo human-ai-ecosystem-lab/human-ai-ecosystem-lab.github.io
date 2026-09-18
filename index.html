@@ -72,6 +72,13 @@
       text-decoration: none;
     }
 
+    .lab-person-social svg {
+      width: 16px;
+      height: 16px;
+      display: block;
+      fill: currentColor;
+    }
+
     .site-hero p a:hover,
     .section-latest p a:hover,
     .section-latest li a:hover,
@@ -80,12 +87,26 @@
       text-decoration: underline;
     }
   </style>
-
-  <script src="https://kit.fontawesome.com/dd430593eb.js" crossorigin="anonymous"></script>
-
   <title>Human-AI Ecosystem Lab</title>
 </head>
 <body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="lab-icon-globe" viewBox="0 0 24 24">
+      <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.93 6h-3.15a15.8 15.8 0 0 0-1.38-3.22A8.05 8.05 0 0 1 18.93 8ZM12 4.04c.63.91 1.16 2.27 1.49 3.96h-2.98c.33-1.69.86-3.05 1.49-3.96ZM4.26 14a7.82 7.82 0 0 1 0-4h3.56a17.02 17.02 0 0 0 0 4H4.26Zm.81 2h3.15c.34 1.27.81 2.37 1.38 3.22A8.05 8.05 0 0 1 5.07 16Zm3.15-8H5.07A8.05 8.05 0 0 1 9.6 4.78 15.8 15.8 0 0 0 8.22 8ZM12 19.96c-.63-.91-1.16-2.27-1.49-3.96h2.98c-.33 1.69-.86 3.05-1.49 3.96ZM13.91 14h-3.82a14.24 14.24 0 0 1 0-4h3.82a14.24 14.24 0 0 1 0 4Zm.49 5.22c.57-.85 1.04-1.95 1.38-3.22h3.15a8.05 8.05 0 0 1-4.53 3.22ZM16.18 14a17.02 17.02 0 0 0 0-4h3.56a7.82 7.82 0 0 1 0 4h-3.56Z"/>
+    </symbol>
+    <symbol id="lab-icon-graduation-cap" viewBox="0 0 24 24">
+      <path d="M12 3 1 8.6l11 5.6 9-4.58V16h2V8.6L12 3Zm0 13.4L5 12.84V17c0 2.21 3.13 4 7 4s7-1.79 7-4v-4.16l-7 3.56Z"/>
+    </symbol>
+    <symbol id="lab-icon-linkedin" viewBox="0 0 24 24">
+      <path d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.68H9.35V9h3.42v1.56h.05c.48-.91 1.64-1.86 3.37-1.86 3.6 0 4.27 2.37 4.27 5.46v6.29ZM5.33 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.02H3.55V9h3.56v11.45ZM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0Z"/>
+    </symbol>
+    <symbol id="lab-icon-x" viewBox="0 0 24 24">
+      <path d="M13.86 10.47 21.15 2h-1.73l-6.33 7.35L8.04 2H2.21l7.64 11.12L2.21 22h1.73l6.68-7.76L15.96 22h5.83l-7.93-11.53Zm-2.36 2.74-.78-1.11L4.57 3.3h2.64l4.97 7.11.77 1.11 6.47 9.26h-2.64l-5.28-7.57Z"/>
+    </symbol>
+    <symbol id="lab-icon-bluesky" viewBox="0 0 24 24">
+      <path d="M6.33 4.3C8.62 6.02 11.08 9.51 12 11.39c.92-1.88 3.38-5.37 5.67-7.09 1.65-1.24 4.33-2.2 4.33.85 0 .61-.35 5.1-.56 5.84-.72 2.56-3.35 3.21-5.69 2.82 4.09.7 5.13 3 2.88 5.31-4.27 4.38-6.13-1.1-6.61-2.5-.09-.26-.13-.38-.13-.28 0-.1-.04.02-.13.28-.48 1.4-2.34 6.88-6.61 2.5-2.25-2.31-1.21-4.61 2.88-5.31-2.34.39-4.97-.26-5.69-2.82-.21-.74-.56-5.23-.56-5.84 0-3.05 2.68-2.09 4.33-.85Z"/>
+    </symbol>
+  </svg>
 
 
   <div class="site-mobile-menu site-navbar-target">
@@ -272,11 +293,11 @@
                   <h3>Angel Hsing-Chi Hwang</h3>
                   <p>Principal Investigator (PI) and Director of the HAE! Lab <br>Assistant Professor at USC</p>
                   <div class="lab-person-social">
-                    <a href="https://angelhwang.github.io/" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                    <a href="https://scholar.google.com/citations?user=mAjNNigAAAAJ&hl=en" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
-                    <a href="https://www.linkedin.com/in/angelhwang/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="https://x.com/angelhwang6" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
-                    <a href="https://bsky.app/profile/angelhwang.bsky.social" target="_blank"><i class="fa-brands fa-bluesky"></i></a>
+                    <a href="https://angelhwang.github.io/" target="_blank"><svg aria-label="Website"><use href="#lab-icon-globe"></use></svg></a>
+                    <a href="https://scholar.google.com/citations?user=mAjNNigAAAAJ&hl=en" target="_blank"><svg aria-label="Google Scholar"><use href="#lab-icon-graduation-cap"></use></svg></a>
+                    <a href="https://www.linkedin.com/in/angelhwang/" target="_blank"><svg aria-label="LinkedIn"><use href="#lab-icon-linkedin"></use></svg></a>
+                    <a href="https://x.com/angelhwang6" target="_blank"><svg aria-label="X"><use href="#lab-icon-x"></use></svg></a>
+                    <a href="https://bsky.app/profile/angelhwang.bsky.social" target="_blank"><svg aria-label="Bluesky"><use href="#lab-icon-bluesky"></use></svg></a>
                   </div>
                 </div>
               </div>
@@ -287,8 +308,8 @@
                   <h3>Chang Wan</h3>
                   <p>PhD Candidate <br>✨On the Job Market🔭</p>
                   <div class="lab-person-social">
-                    <a href="https://changwan5.github.io/" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                    <a href="http://www.linkedin.com/in/chang-wan-2786a8269"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://changwan5.github.io/" target="_blank"><svg aria-label="Website"><use href="#lab-icon-globe"></use></svg></a>
+                    <a href="http://www.linkedin.com/in/chang-wan-2786a8269"><svg aria-label="LinkedIn"><use href="#lab-icon-linkedin"></use></svg></a>
                   </div>
                 </div>
               </div>
@@ -299,7 +320,7 @@
                   <h3>Fiona Li</h3>
                   <p>PhD Candidate</p>
                   <div class="lab-person-social">
-                    <a href="https://annenberg.usc.edu/phd-students/fiona-li" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                    <a href="https://annenberg.usc.edu/phd-students/fiona-li" target="_blank"><svg aria-label="Website"><use href="#lab-icon-globe"></use></svg></a>
                   </div>
                 </div>
               </div>
@@ -310,8 +331,8 @@
                   <h3>Yi  Zhang</h3>
                   <p>PhD Candidate</p>
                   <div class="lab-person-social">
-                    <a href="https://yizhang96.github.io/" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                    <a href="https://www.linkedin.com/in/yizhang96/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://yizhang96.github.io/" target="_blank"><svg aria-label="Website"><use href="#lab-icon-globe"></use></svg></a>
+                    <a href="https://www.linkedin.com/in/yizhang96/"><svg aria-label="LinkedIn"><use href="#lab-icon-linkedin"></use></svg></a>
                   </div>
                 </div>
               </div>
@@ -322,8 +343,8 @@
                   <h3>Elaine Jeon</h3>
                   <p>PhD Student</p>
                   <div class="lab-person-social">
-                    <a href="https://annenberg.usc.edu/phd-students/elaine-jeon" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                    <a href="https://www.linkedin.com/in/elainejeon/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://annenberg.usc.edu/phd-students/elaine-jeon" target="_blank"><svg aria-label="Website"><use href="#lab-icon-globe"></use></svg></a>
+                    <a href="https://www.linkedin.com/in/elainejeon/"><svg aria-label="LinkedIn"><use href="#lab-icon-linkedin"></use></svg></a>
                   </div>
                 </div>
               </div>
@@ -334,7 +355,7 @@
                   <h3>Vivian Zhai</h3>
                   <p>PhD Student</p>
                   <div class="lab-person-social">
-                    <a href="https://annenberg.usc.edu/phd-students/jiaying-vivian-zhai" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                    <a href="https://annenberg.usc.edu/phd-students/jiaying-vivian-zhai" target="_blank"><svg aria-label="Website"><use href="#lab-icon-globe"></use></svg></a>
                   </div>
                 </div>
               </div>
@@ -345,8 +366,8 @@
                   <h3>Siyi Zhou</h3>
                   <p>PhD Student</p>
                   <div class="lab-person-social">
-                    <a href="https://annenberg.usc.edu/phd-students/siyi-zhou" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                    <a href="https://www.linkedin.com/in/siyi-zhou-ab2664108/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://annenberg.usc.edu/phd-students/siyi-zhou" target="_blank"><svg aria-label="Website"><use href="#lab-icon-globe"></use></svg></a>
+                    <a href="https://www.linkedin.com/in/siyi-zhou-ab2664108/"><svg aria-label="LinkedIn"><use href="#lab-icon-linkedin"></use></svg></a>
                   </div>
                 </div>
               </div>
@@ -357,7 +378,7 @@
                   <h3>Xinyue Zhang</h3>
                   <p>Master Student</p>
                   <div class="lab-person-social">
-                    <a href="https://xinyuecheung.github.io/" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                    <a href="https://xinyuecheung.github.io/" target="_blank"><svg aria-label="Website"><use href="#lab-icon-globe"></use></svg></a>
                   </div>
                 </div>
               </div>
@@ -368,7 +389,7 @@
                   <h3>Nimra Ishfaq</h3>
                   <p>Master Student</p>
                   <div class="lab-person-social">
-                    <a href="https://www.linkedin.com/in/nimra-ishfaq/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/nimra-ishfaq/"><svg aria-label="LinkedIn"><use href="#lab-icon-linkedin"></use></svg></a>
                   </div>
                 </div>
               </div>
@@ -379,7 +400,7 @@
                   <h3>Hannah Kim</h3>
                   <p>Undergrad Student</p>
                   <div class="lab-person-social">
-                    <a href="http://www.linkedin.com/in/hkim1902"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="http://www.linkedin.com/in/hkim1902"><svg aria-label="LinkedIn"><use href="#lab-icon-linkedin"></use></svg></a>
                   </div>
                 </div>
               </div>
@@ -390,7 +411,7 @@
                   <h3>Bhoomika Gupta</h3>
                   <p>Undergrad Student</p>
                   <div class="lab-person-social">
-                    <a href="https://www.linkedin.com/in/bhoomikagupta44/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/bhoomikagupta44/"><svg aria-label="LinkedIn"><use href="#lab-icon-linkedin"></use></svg></a>
                   </div>
                 </div>
               </div>
@@ -401,7 +422,7 @@
                   <h3>Yangyang Yuan</h3>
                   <p>Undergrad Student</p>
                   <div class="lab-person-social">
-                    <a href="www.linkedin.com/in/yangyang-yuan"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/yangyang-yuan"><svg aria-label="LinkedIn"><use href="#lab-icon-linkedin"></use></svg></a>
                   </div>
                 </div>
               </div>
